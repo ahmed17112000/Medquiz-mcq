@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediQuiz - بنك الأسئلة الطبية</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">🩺 MediQuiz</div>
+      <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">المواد الدراسية</a></li>
+        <li><a href="#">تسجيل الدخول</a></li>
+        <li><a href="#">عن الموقع</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>اختبر معلوماتك الطبية!</h1>
+    <p>بنك أسئلة شامل لطلبة الكليات الطبية</p>
+    <a href="#" class="btn">ابدأ الآن</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">📚 بنك أسئلة شامل</div>
+    <div class="feature">⚡ تقييم فوري</div>
+    <div class="feature">📈 متابعة الأداء</div>
+  </section>
+
+  <section class="subjects">
+    <h2>اختر المادة</h2>
+    <div class="subject-grid">
+      <div class="subject-card">تشريح</div>
+      <div class="subject-card">فسيولوجي</div>
+      <div class="subject-card">باثولوجي</div>
+      <div class="subject-card">فارماكولوجي</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MediQuiz. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
+ 
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #caf0f8;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  background-color: #e0f7fa;
+}
+
+.feature {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.subjects {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.subject-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.subject-card {
+  background-color: #90e0ef;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subject-card:hover {
+  background-color: #00b4d8;
+  color: white;
+}
+
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
