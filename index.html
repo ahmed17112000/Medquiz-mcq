@@ -5,24 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بنك الأسئلة الطبية</title>
     <style>
-        body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
-        header { background-color: #007b8a; color: white; padding: 20px; text-align: center; }
-        .search-box { margin: 20px auto; text-align: center; }
-        input[type="text"] { width: 60%; padding: 10px; font-size: 16px; }
-        .subjects { display: flex; justify-content: center; flex-wrap: wrap; margin: 20px; }
-        .subject { background-color: white; border: 1px solid #ccc; margin: 10px; padding: 15px 25px; border-radius: 8px; cursor: pointer; transition: 0.3s; }
-        .subject:hover { background-color: #e0f7fa; }
-        .questions { max-width: 800px; margin: 30px auto; background-color: white; padding: 20px; border-radius: 8px; }
-        .question { border-bottom: 1px solid #ddd; padding: 10px 0; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007b8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .search-box {
+            margin: 20px auto;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .subjects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .subject {
+            background-color: white;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 15px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .subject:hover {
+            background-color: #e0f7fa;
+        }
+        .questions {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .question {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
     </style>
 </head>
 <body>
+
 <header>
     <h1>بنك الأسئلة لطلبة الكليات الطبية</h1>
 </header>
+
 <div class="search-box">
     <input type="text" placeholder="ابحث عن سؤال...">
 </div>
+
 <div class="subjects">
     <div class="subject">التشريح</div>
     <div class="subject">الفسيولوجيا</div>
@@ -30,11 +74,13 @@
     <div class="subject">الصيدلة</div>
     <div class="subject">الميكروبيولوجي</div>
 </div>
+
 <div class="questions">
     <h2>أسئلة شائعة</h2>
     <div class="question">ما هو العصب المسؤول عن حركة عضلات الوجه؟</div>
     <div class="question">ما الفرق بين الخلايا T والخلايا B؟</div>
     <div class="question">ما هي مراحل الالتهاب؟</div>
 </div>
+
 </body>
 </html>
